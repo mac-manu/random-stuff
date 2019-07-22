@@ -1,9 +1,3 @@
-
-#Dado un número N, encuentre el número de palíndromo más cercano cuya diferencia absoluta con N sea mínima.
-#> Si 2 números de palín de distancia tienen la misma diferencia de N, genera el menor.
-#ruby-prof for
-
-
 require 'ruby-prof'
 
 RubyProf.start
