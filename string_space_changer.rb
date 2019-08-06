@@ -1,7 +1,9 @@
 # Replace whitespaces with "-" included the "-" encoding: UTF-8
 
 def clean_string(str)
-  str = str.gsub!(/[[:space:]]/, '-')
+  #str = str.gsub!(/[[:space:]]/, '-')
+  # delete work faster
+  str = str.delete!(' ')
 end
 
 puts "insert string "
