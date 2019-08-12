@@ -8,3 +8,7 @@ users = [
 
 
 puts users[3]
+
+puts users.find {|x| x[:username] == "arya"}
+
+#@users.select {|user| user["password"] = "password1" }
