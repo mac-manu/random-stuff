@@ -50,5 +50,8 @@ reviews[book2] = 'Nice and compact!'
 
 reviews.length #=> 1
 
-puts book1
-puts book2 
+puts book1.author
+puts book1.title
+puts book2.author
+puts book2.title
+puts reviews[book1]
