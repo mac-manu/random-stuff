@@ -55,3 +55,4 @@ puts book1.title
 puts book2.author
 puts book2.title
 puts reviews[book1]
+puts reviews[book2]
