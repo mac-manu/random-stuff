@@ -23,4 +23,17 @@ puts fruits.values_at('orange')
 
 
 numbers = [1,2,3,45,6,1,2,3,4,9]
-puts numbers.count 
+puts numbers.count
+
+
+puts "arrays ZIPS"
+puts first_names = ['George', 'Marcus', 'Brian']
+puts last_names = ['Massy', 'Windmil']
+
+puts first_names.zip(last_names)
+
+
+puts "**** "
+puts last_names.zip(first_names)
+
+puts ['Mr.', 'Sir', 'Father'].zip(first_names, last_names)
